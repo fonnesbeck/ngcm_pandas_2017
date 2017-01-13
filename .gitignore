@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.DS_Store
+
+data/NationalFoodSurvey/*.csv
+data/NationalFoodSurvey/*.feather
+data/NationalFoodSurvey/*.txt
+data/NationalFoodSurvey/*.pdf
+data/NationalFoodSurvey/*/*.txt
+data/*.json.gz
