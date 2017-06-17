@@ -89,7 +89,6 @@ Christopher Fonnesbeck (Vanderbilt University) Skipper Seabold (Civis Analytics)
 - Fitting regression models
 - Bootstrapping
 - Working with missing data
-- Data analysis with Scikit-learn
 
 **16:15 - 17:30**
 

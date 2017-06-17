@@ -7,3 +7,5 @@ data/NationalFoodSurvey/*.txt
 data/NationalFoodSurvey/*.pdf
 data/NationalFoodSurvey/*/*.txt
 data/*.json.gz
+
+notebooks/testing*
