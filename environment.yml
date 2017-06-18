@@ -6,6 +6,7 @@ dependencies:
 - ipython
 - ipywidgets
 - jupyter
+- line_profiler
 - matplotlib
 - notebook
 - numba 
@@ -13,8 +14,10 @@ dependencies:
 - numpy
 - pandas
 - pip
+- pprofile
 - pyzmq
 - scipy
 - seaborn
 - snakeviz
+- sympy
 

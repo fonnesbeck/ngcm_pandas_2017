@@ -6,96 +6,69 @@ This tutorial will introduce the use of Python for statistical data analysis, us
 
 ## Instructors
 
-Christopher Fonnesbeck (Vanderbilt University) Skipper Seabold (Civis Analytics)
+Christopher Fonnesbeck (Vanderbilt University)  
+Skipper Seabold (Civis Analytics)
 
 ## Outline
 
-### Monday, June 26
-
-**09:30 - 10:45**
-
-*Intro to NumPy and pandas (Skipper Seabold)*
-
-- NumPy arrays and indexing
-- Multidimensional arrays
-- Array methods and functions
-- Series and DataFrame objects
-- Reading and writing files
-- Setting options
-- Categorical data
-
-**11:00 - 13:15**
-
-*Intermediate pandas (Chris Fonnesbeck)*
-
-- Indexing, data selection and subsetting
-- `where` and `query`
+### Introduction to NumPy and Pandas (SS)
+- Introduction to NumPy
+- Import Convention
+- NumPy Arrays and Indexing
+- Exercise: Random numbers
+- Index Arrays
+- Multidimensional Arrays
+- Array Operations, Methods, and Functions
+- Introduction to Pandas
+- Pandas Series
+- Pandas DataFrames
+- Reading and Writing Files
+### Intermediate pandas (CF)
+- Indexing and Selection
+- Indexing with where
+- Selection with query
+- Operations
+- Sorting and Ranking
 - Hierarchical indexing
-- Sorting and ranking
 - Missing data
 - Data summarization
-
-**13:15 - 14:15 Lunch**
-
-**14:15 - 16:00**
-
-*Data Manipulation with pandas (Skipper Seabold)*
-
-- Date/time types
-- Merging and joining DataFrame objects
+- Writing Data to Files
+### Data Manipulation with Pandas (SS)
+- Categorical Types
+- Date and Time Types
+- Merging and Joining DataFrames
 - Concatenation
-- Text data operations
-
-**16:15 - 17:30**
-
-*pandas Best Practices (Chris Fonnesbeck)*
-
-- Data aggregation and GroupBy operations
+- Text Data Manipulation
+### Idomatic Pandas (CF)
 - Reshaping DataFrame objects
-- Pivoting
-- Data transformation with `assign`
 - Method chaining
-- `pipe`
-
-### Tuesday, June 27
-
-**09:30 - 10:45**
-
-*High-level Plotting with pandas and Seaborn (Chris Fonnesbeck)*
-
-- Basic plotting with pandas
-- Controlling figure aesthetics
-- Choosing color palettes
-- Visualizing the distribution of a dataset
-- Visualizing linear relationships
-- Plotting with categorical data
-- Plotting on data-aware grids
-
-**11:00 - 13:15**
-
-*Advanced Plotting with Matplotlib and Bokeh (Skipper Seabold)*
-
-- Creating low-level plots with Matplotlib
-- Customizing plot attributes
-- Building interactive visualizations with Bokeh
-
-**13:15 - 14:15 Lunch**
-
-**14:15 - 16:00**
-
-*Data Analysis with pandas (Chris Fonnesbeck)*
-
-- Statistical operations in pandas
-- Fitting regression models
-- Bootstrapping
-- Working with missing data
-
-**16:15 - 17:30**
-
-*Parallel Computing with Dask (Skipper Seabold)*
-
-- Dask data structures
-- Out-of-core/memory workflows: xray
+- Pivoting
+- Data transformation
+- Categorical Variables
+- Data aggregation and GroupBy operations
+### High-level Plotting with Pandas and Seaborn (SS)
+- Bar plots
+- Histograms
+- Boxplots
+- Scatterplots
+- Introduction to Seaborn
+- Customizing Seaborn Figure Aesthetics
+- Plotting Small Multiples on Data-aware Grids
+### Performance Pandas (CF)
+- cython
+- numba
+- eval with numexp
+- sparse data structures
+### Dask (SS)
+- Introduction
+- Dask Array
+- Performance vs. NumPy
+- Linear Algebra
+- Dask Bag
+- Dask DataFrame
+- DataFrame API
+- Aside on Storage Formats: Thinking about Computers
+- Dask Resources
 
 
 ## Prerequisites
@@ -104,28 +77,29 @@ This is an intermediate-level computing course, so some previous experience with
 
 ## Software Requirements
 
-Python 3.5. We recommend installing the free Anaconda distribution of Python, available from Continuum Analytics.
+Python 3.6. We recommend installing the free Anaconda distribution of Python, available from Continuum Analytics.
 
 The following packages should be installed on your system:
 
-- jupyter
-- ipython>=4.0
-- numpy>=1.10
-- pandas>=0.18
-- scipy
-- matplotlib
-- scikit-learn
-- seaborn
-- patsy
-- numexpr
-- bottleneck
-- xlrd
-- jinja2
-- tornado
-- pyzmq
-- jsonschema
-- mpld3
+- cython
 - dask
+- ipython
+- ipywidgets
+- jupyter
+- line_profiler
+- matplotlib
+- notebook
+- numba 
+- numexpr
+- numpy
+- pandas
+- pip
+- pprofile
+- pyzmq
+- scipy
+- seaborn
+- snakeviz
+- sympy
 
 If you have installed Anaconda, these should already be available to you.
 
@@ -143,9 +117,9 @@ and install everything using `conda`:
 
     conda config --add channels conda-forge
     conda env create -f environment.yml
-    
+
 This will create an **environment** called `ngcm` that includes the packages required for the course.    
-    
+​    
 If you are not using the Anaconda Python distribution, you will need to manually install the packages listed in `environment.yml` using `pip`.
 
 Which you probably don't want to do.
