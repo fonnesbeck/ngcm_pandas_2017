@@ -13,6 +13,7 @@ dependencies:
 - numexpr
 - numpy
 - pandas
+- pandas-datareader
 - pip
 - pprofile
 - pyzmq
