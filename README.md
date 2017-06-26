@@ -23,7 +23,7 @@ Skipper Seabold (Civis Analytics)
 - Pandas Series
 - Pandas DataFrames
 - Reading and Writing Files
-### Intermediate pandas (CF)
+### Indexing, Selection and Operations (CF)
 - Indexing and Selection
 - Indexing with where
 - Selection with query
@@ -39,7 +39,7 @@ Skipper Seabold (Civis Analytics)
 - Merging and Joining DataFrames
 - Concatenation
 - Text Data Manipulation
-### Idomatic Pandas (CF)
+### Pandas Best Practices (CF)
 - Reshaping DataFrame objects
 - Method chaining
 - Pivoting
