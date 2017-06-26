@@ -17,6 +17,7 @@ dependencies:
 - pip
 - pprofile
 - pyzmq
+- scikit-learn
 - scipy
 - seaborn
 - snakeviz
